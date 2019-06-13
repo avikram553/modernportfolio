@@ -1,0 +1,15 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/-o dist/css/--recursive"
+  },
+  "author": "avikram553",
+  "license": "MIT",
+  "dependencies": {
+    "node": "^12.4.0",
+    "sass": "^1.21.0"
+  }
+}
