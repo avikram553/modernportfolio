@@ -118,7 +118,7 @@
 }
 
 .menu .nav-item.current > a {
-  color: #eece1a;
+  color: #9edce4;
 }
 
 .menu .nav-link {
@@ -231,11 +231,12 @@ header {
 
 main {
   padding: 3rem;
-  min-height: calc(100vh-40px);
+  min-height: calc(100vh - 40px);
 }
 
 main .icons {
   margin-top: 1rem;
+  margin-left: 5%;
 }
 
 main .icons a {
@@ -287,6 +288,86 @@ main#home h1 {
   height: 40px;
 }
 
+.lang {
+  margin-left: 10px;
+  text-align: left;
+}
+
+.container {
+  margin-left: 20px;
+  width: 70%;
+  /* Full width */
+  background-color: #ddd;
+  /* Grey background */
+}
+
+.skills {
+  text-align: right;
+  /* Right-align text */
+  padding-top: 10px;
+  /* Add top padding */
+  padding-bottom: 10px;
+  /* Add bottom padding */
+  color: white;
+  /* White text color */
+}
+
+.html {
+  width: 90%;
+  background-color: #eece1a;
+}
+
+.css {
+  width: 80%;
+  background-color: #2196f3;
+}
+
+.js {
+  width: 65%;
+  background-color: #f44336;
+}
+
+.python {
+  width: 60%;
+  background-color: #4caf50;
+}
+
+.boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1rem;
+  padding: 10px;
+}
+
+.boxes div {
+  font-size: 1.5rem;
+  border: solid 3px white;
+  padding: 5px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.boxes div:hover {
+  padding: 15px;
+  background: #eece1a;
+  color: black;
+  font-style: bold;
+}
+
+.boxes div:hover span {
+  color: red;
+}
+
 @media screen and (max-width: 600px) {
   main {
     -webkit-box-align: center;
@@ -297,6 +378,10 @@ main#home h1 {
   main .lg-heading {
     line-height: 1;
     margin-bottom: 1rem;
+    -webkit-text-size-adjust: 20px;
+       -moz-text-size-adjust: 20px;
+        -ms-text-size-adjust: 20px;
+            text-size-adjust: 20px;
   }
   ul.menu-nav,
   div.menu-branding {
@@ -321,7 +406,7 @@ main#home h1 {
             transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url("../img/per.jpg");
+    background: url("../img/fatt1.jpg");
     width: 150px;
     height: 150px;
   }
